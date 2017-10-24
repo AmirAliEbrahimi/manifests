@@ -3,6 +3,11 @@
 
 【rk3399_box_nougat_release_v1.1.0_20170919.xml 更新日志】
 
+- 更新keybox烧写工具keywriter-v1.5.zip，解决概率性烧写keybox完成后，提示“清空vendo数据失败"
+
+
+【rk3399_box_nougat_release_v1.1.0_20170919.xml 更新日志】
+
 - Widevine Level 1支持
 - 新增Rockchip Android Widevine开发指南 V1.10.pdf
 - 新增keybox烧写工具keywriter-v1.4.zip
