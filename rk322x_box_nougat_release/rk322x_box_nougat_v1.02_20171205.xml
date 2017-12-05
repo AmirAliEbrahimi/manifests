@@ -3,9 +3,9 @@
   <remote fetch="ssh://git@www.rockchip.com.cn/gerrit/" name="aosp"/>
   <remote fetch="ssh://git@www.rockchip.com.cn/gerrit/" name="rk"/>
   <remote fetch="ssh://git@www.rockchip.com.cn/repo/" name="rk_legacy"/>
-  
+
   <default remote="aosp" revision="refs/tags/android-7.1.2_r6" sync-j="4"/>
-  
+
   <project name="android/RKDocs" path="RKDocs" remote="rk" revision="2b3d67f08ea38b172e8a2f453f486a3cff656120" upstream="rk322x/box/android-5.1"/>
   <project name="android/RKTools" path="RKTools" remote="rk" revision="2e64ac1d06fbded33da9e2afdced47acd8b3c408" upstream="rk322x/box/android-7.1"/>
   <project groups="pdk-cw-fs,pdk-fs" name="android/device/common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" upstream="refs/tags/android-7.1.2_r6"/>

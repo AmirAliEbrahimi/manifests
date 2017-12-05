@@ -2,8 +2,56 @@
 ======RK3368 Android7.1 BOX SDK Release Note======
 
 
+【rk322x_box_nougat_v1.02_20171205.xml 更新日志】
+DRM widevine
+   - 添加DRM widevine L1功能支持；
+
+系统
+	- 添加512M内存优化支持及配置;
+	- 更新媒体中心应用版本到3.0.4 ，修复gif图片循环播放闪退问题，
+	  修复网络设备刷新过程中概率闪退问题，优化体验；
+	  解决网络状态变化时后台网络共享设备扫描线程cpu占用高问题；
+	  修复有显示导航栏的界面下无法全屏播放的问题；
+	  修复pip画中画功能异常问题。
+
+	- 更新RKTvLauncher 应用，调整UI风格，优化流畅度等体验指标;
+	- 添加多屏互动应用
+	- 修复otg usb口默认host功能情况下，插鼠标开机失败和概率性不识别鼠标的问题；
+	- 修复原生设置非中英文crash问题；
+	- 修复待机时鼠标能够唤醒问题；
+	- 修复data分区被填满后系统空指针异常问题；
+
+media
+  -【svp】mpp库更新，修复花屏问题,DRM下netflix无法播放等问题；
+  - 更新rkffplayer、libffmpeg库，修复RKMC播放有声无影问题；
+    修复部分视频apk播放，拔掉HDMI，一段时间再插上出现音视频不同步，快进等现象问题；
+    等
+recovery
+	 - 更新sdboot功能， 支持 sparse 固件 ；
+	 - 修复旋转花屏 ；
+	 - 修复cvbs显示下花屏问题；
+	 - 添加支持插入U盘自动识别升级功能；
+	 - 修复nand 设备无法升级loader 问题；
+	 - 添加backup恢复功能支持。
+
+graphic & display
+  - 解决L1播放视频拷机时由fence timeout导致的系统卡死问题;
+
+ethernet
+ - 内部以太网PHY长网线兼容性问题优化;
+
+文档 &工具
+  -添加keybox烧写工具keywriter-v1.5；
+  -更新写号工具WNpctool_Setup_V1.1.5_0802；
+  -更新开发指南文档《Rockchip RK3229 软件开发指南 V1.03-20171124.pdf》;
+  -添加《Rockchip Android Widevine开发指南.pdf》；
+  -更新高安文档《Rockchip Secure Boot Application Note_v1.7_20170519.pdf》
+
+
+************************************************************
+
+
 【rk322x_box_nougat_v1.01_20170914.xml 更新日志】
-正式版本发布
 1.修复4K 60显示下播放某些4k视频出现绿条纹问题
 2.关闭Launcher应用多余打印
 3.更新mpp和vpu库，解决原生kodi无法播放4k ts格式视频问题
