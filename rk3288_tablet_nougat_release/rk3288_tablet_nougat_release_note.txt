@@ -1,3 +1,42 @@
+版本：rk3288_tablet_nougat_v1.06_20171208.xml
+
+工具文档
+  -新增固件生成用户手册文档
+  -更新RK3288_ANDROID7.1-TABLET-SDK_V1.02_20171101发布说明，新增板级配置
+  -更新Rockchip_android7.1_wifi_配置明V1.6
+recovery & ota
+  -支持SDBoot下对sparse固件的支持
+  -支持nand设备升级loader
+  -支持升级sparse固件
+系统
+  -CTS passed
+  -【重要】支持WIFI兼容方案
+    参考device/rockchip/common/build_base.sh，开启执行build_wifi_ko.sh
+    # build wifi ko
+    source device/rockchip/common/build_wifi_ko.sh
+   【注意】
+    由于kenrel更新到03f831b6c890c63c4b223c350e8765de785f7786之后，需要上层同步执行上述脚本。
+    若没有使用rk提供的build.sh脚本编译，则需要自行添加上述脚本到编译脚本。
+    具体参考《Rockchip_android7.1_wifi_配置明V1.6》
+  -更新ap6335 firmware
+  -AlarmManager增加tag配置机制，过滤不必要的唤醒，改善续航
+  -解决data区被占满引起的系统无法启动问题
+  -解决HDMI设置的相关问题
+  -解决某些动画场景闪屏的问题
+media
+  -支持usb camera hot-plugin-out
+  -增加ov8865驱动的编译
+graphic & display
+  -解决配置的primary display找不到时崩溃的问题
+  -解决某些情况下4K点对点显示模糊的问题
+  -解决多层layer时，可能出现屏幕右侧1/3花屏抖动的问题
+kernel & uboot
+  -解决某些情况下，休眠唤不醒的问题
+  -解决firefly板级休眠唤醒，触摸异常等问题
+  -解决唤醒后HDMI无显示问题
+  -3288w HDMI支持YUV420模式
+  -解决某些情况下温控跳变问题
+  -默认关闭负载变频，改为场景变频，增加4K 10BIT视频场景策略
 =========================================================================================
 版本：rk3288_tablet_nougat_v1.05_20170930.xml
 
