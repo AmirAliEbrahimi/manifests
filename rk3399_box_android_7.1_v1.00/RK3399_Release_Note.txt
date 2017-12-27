@@ -1,6 +1,36 @@
 ﻿
 ======RK3399 Android7.1 SDK Release Note======
 
+【rk3399_box_nougat_release_v1.2.0_20171228.xml 更新日志】
+
+显示
+- 新增HDMI HDR BYPASS功能支持
+- 新增HDMI COLOR设置功能
+- 修复HDMI读取EDID失败导致黑屏问题
+- 修复主屏没有连接下副屏无显示问题
+- 修复HDMI与个别显示器的兼容性问题
+
+DRM安全
+- WIDEVINE LEVEL1更新
+- 修复Netflix播放若干问题
+
+系统应用
+- 更新RKTvLauncher应用
+- 更新媒体中心应用
+- 新增DLNA应用
+
+摄像头
+- 修复USB摄像头500万像素识别为300万的像素问题
+
+工具和文档
+- 更新Rockchip_TEE安全SDK开发手册_V1.1_20170516
+- 更新Rockchip_android7.1_wifi_配置明V1.6
+- 更新SecureBootTool_v1.85
+- 更新AndroidTool_Release_v2.43
+- 更新FactoryTool_v1.52
+- 更新FWFactoryTool5.43
+- 更新Efuse_Tool_v1.37
+
 【rk3399_box_nougat_release_v1.1.0_20170919.xml 更新日志】
 
 - 更新keybox烧写工具keywriter-v1.5.zip，解决概率性烧写keybox完成后，提示“清空vendo数据失败"
