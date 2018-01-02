@@ -19,12 +19,16 @@ DRM安全
 - 更新媒体中心应用
 - 新增DLNA应用
 
+kernel
+- 解决eMMC概率初始化失败
+
 摄像头
 - 修复USB摄像头500万像素识别为300万的像素问题
 
 工具和文档
 - 更新Rockchip_TEE安全SDK开发手册_V1.1_20170516
 - 更新Rockchip_android7.1_wifi_配置明V1.6
+- 更新keybox烧写工具keywriter-v1.5.zip
 - 更新SecureBootTool_v1.85
 - 更新AndroidTool_Release_v2.43
 - 更新FactoryTool_v1.52
