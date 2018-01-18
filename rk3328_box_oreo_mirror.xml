@@ -80,6 +80,7 @@
   <project path="device/sample" name="android/device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="android/platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/rk-pcba-test" name="android/rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/8.0/develop-drm" />
+  <project path="external/iperf" name="android/platform/external/iperf" remote="rk" revision="rk33/mid/8.1/develop"/>
   <project path="external/aac" name="android/platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="android/platform/external/abi-compliance-checker" groups="pdk" />
   <project path="external/abi-dumper" name="android/platform/external/abi-dumper" groups="pdk" />
@@ -284,7 +285,7 @@
   <project path="external/pdfium" name="android/platform/external/pdfium" groups="pdk" />
   <project path="external/piex" name="android/platform/external/piex" groups="pdk" />
   <project path="external/ply" name="android/platform/external/ply" groups="pdk" />
-  <project path="external/ppp" name="android/platform/external/ppp" groups="pdk" />
+  <project path="external/ppp" name="android/platform/external/ppp" groups="pdk" remote="rk" revision="rk33/mid/8.1/develop" />
   <project path="external/proguard" name="android/platform/external/proguard" groups="pdk" />
   <project path="external/protobuf" name="android/platform/external/protobuf" groups="pdk" />
   <project path="external/python/cpython2" name="android/platform/external/python/cpython2" groups="pdk" />
@@ -469,7 +470,7 @@
   <project path="packages/apps/PackageInstaller" name="android/platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="android/platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Protips" name="android/platform/packages/apps/Protips" groups="pdk-fs" />
-  <project path="packages/apps/Provision" name="android/platform/packages/apps/Provision" groups="pdk-fs" />
+  <project path="packages/apps/Provision" name="android/platform/packages/apps/Provision" groups="pdk-fs" remote="rk" revision="rk33/box/8.1/develop" />
   <project path="packages/apps/QuickSearchBox" name="android/platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="android/platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="android/platform/packages/apps/Settings" groups="pdk-fs" remote="rk" revision="rk33/mid/8.1/develop"/>
@@ -589,7 +590,7 @@
   <project path="system/nfc" name="android/platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="android/platform/system/nvram" groups="pdk" />
   <project path="system/security" name="android/platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="android/platform/system/sepolicy" groups="pdk" />
+  <project path="system/sepolicy" name="android/platform/system/sepolicy" groups="pdk" remote="rk" revision="rk33/mid/8.1/develop" />
   <project path="system/tools/aidl" name="android/platform/system/tools/aidl" groups="pdk" />
   <project path="system/timezone" name="android/platform/system/timezone" groups="pdk" />
   <project path="system/tools/hidl" name="android/platform/system/tools/hidl" groups="pdk" />
@@ -633,7 +634,7 @@
   <project path="tools/tradefederation/core" name="android/platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="android/platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="frameworks/opt/net/pppoe" name="android/platform/frameworks/opt/net/pppoe" groups="pdk-fs" remote="rk" revision="rk33/mid/7.0/develop"/>
-  <!--repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" /-->
+  <repo-hooks in-project="android/platform/tools/repohooks" enabled-list="pre-upload" />
   <project path="external/ntfs-3g" name="android/rk/platform/external/ntfs-3g" remote="rk" revision="rk33/mid/8.0/develop" />
   <project path="hardware/rockchip/libiep" name="android/rk/hardware/rk29/libiep" remote="rk" revision="rk32/mid/6.0/develop" />
   <project path="hardware/rockchip/librga" name="android/rk/hardware/rk29/librga" remote="rk" revision="rk33/mid/8.1/develop" />
