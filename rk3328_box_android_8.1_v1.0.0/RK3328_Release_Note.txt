@@ -1,0 +1,4 @@
+﻿======RK3328 Android8.1 SDK Release Note======
+
+【rk3328_box_oreo_release_v1.0.0-beta_20180123.xml 更新日志】
+BETA版本初始发布
