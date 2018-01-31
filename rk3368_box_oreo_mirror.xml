@@ -626,7 +626,6 @@
   <project path="hardware/rockchip/omx_il" name="android/rk/hardware/rk29/omx_il" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="hardware/rockchip/hdmicec" name="android/rk/hardware/rk29/hdmicec" remote="rk" revision="rk33/atv/8.0/develop"/>
   <project path="hardware/rockchip/hwcomposer" name="android/rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="rk33/mid/6.0/develop_drm" />
-  <project path="hardware/rockchip/libgralloc" name="android/rk/hardware/rk29/libgralloc_ump" remote="rk" revision="soc_with_utgard_gpu/7.1/develop_drm" />
   <project path="hardware/rockchip/camera" name="android/rk/hardware/rk29/camera" remote="rk" revision="rk33/mid/8.1/develop"/>
   <project path="hardware/rockchip/audio" name="android/rk/hardware/rk29/audio" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="hardware/rockchip/liblights" name="android/rk/hardware/rk29/liblights" remote="rk" revision="rk33/mid/7.0/develop"/>
