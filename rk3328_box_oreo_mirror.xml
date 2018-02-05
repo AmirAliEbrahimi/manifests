@@ -8,7 +8,9 @@
            sync-j="4" />
 
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3328/atv/develop8.0"/>
-  <project path="RKDocs" name="android/RKDocs" remote="rk" revision="rk3328/box/android-8.1"/>
+  <project path="RKDocs/rk3328" name="android/RKDocs" remote="rk" revision="rk3328/box/android-8.1"/>
+  <project path="RKDocs/android" name="android/docs/android" remote="rk" revision="rk33/mid/android-8.1"/>
+  <project path="RKDocs/common" name="android/docs/common" remote="rk" revision="rk33/mid/android-8.1"/>
   <project path="build/make" name="android/platform/build" groups="pdk" remote="rk" revision="rk33/mid/8.1/develop">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -440,7 +442,7 @@
   <project path="libnativehelper" name="android/platform/libnativehelper" groups="pdk" />
   <project path="packages/apps/BasicSmsReceiver" name="android/platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="android/platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rk" revision="rk33/mid/8.1/develop" />
-  <project path="packages/apps/Browser2" name="android/platform/packages/apps/Browser2" groups="pdk-fs" remote="rk" revision="rk33/mid/8.1/develop"/>
+  <project path="packages/apps/Browser2" name="android/platform/packages/apps/Browser2" groups="pdk-fs" remote="rk" revision="rk33/mid/8.1/develop" />
   <project path="packages/apps/Calendar" name="android/platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="android/platform/packages/apps/Camera2" groups="pdk-fs" remote="rk" revision="rk33/mid/8.1/develop"/>
   <project path="packages/apps/CarrierConfig" name="android/platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
@@ -590,7 +592,7 @@
   <project path="system/nfc" name="android/platform/system/nfc" groups="pdk" />
   <project path="system/nvram" name="android/platform/system/nvram" groups="pdk" />
   <project path="system/security" name="android/platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="android/platform/system/sepolicy" groups="pdk" remote="rk" revision="rk33/mid/8.1/develop" />
+  <project path="system/sepolicy" name="android/platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="android/platform/system/tools/aidl" groups="pdk" />
   <project path="system/timezone" name="android/platform/system/timezone" groups="pdk" />
   <project path="system/tools/hidl" name="android/platform/system/tools/hidl" groups="pdk" />
@@ -647,7 +649,7 @@
   <project path="hardware/rockchip/audio" name="android/rk/hardware/rk29/audio" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="hardware/rockchip/liblights" name="android/rk/hardware/rk29/liblights" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="hardware/rockchip/sensor" name="android/rk/hardware/rk29/sensor" remote="rk" revision="rk33/mid/8.0/develop"/>
-  <project path="kernel" name="rk/kernel" remote="rk" revision="develop-4.4"/>
+  <project path="kernel" name="rk/kernel" remote="rk" revision="stable-4.4-rk3328-box-8.1"/>
   <project path="u-boot" name="android/rk/u-boot" remote="rk" revision="rkdevelop"/>
   <project path="rkst" name="android/rk/rkst" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="vendor/rockchip/common" name="android/rk/platform/vendor/rockchip/common" remote="rk" revision="rk33/mid/8.1/develop"/>
