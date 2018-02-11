@@ -8,8 +8,9 @@
            sync-j="4" />
 
   <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3368/box/android-8.1"/>
+  <project path="RKDocs/android" name="docs/android" remote="rk" revision="rk33/mid/android-8.1"/>
   <project path="RKDocs/common" name="android/docs/common" remote="rk" revision="rk33/mid/android-8.1"/>
-  <project path="RKDocs/rk3368" name="android/docs/rk3368h" remote="rk" revision="rk33/mid/android-8.1"/>
+  <project path="RKDocs/rk3368" name="android/docs/rk3368h" remote="rk" revision="rk3368/box/android-8.1"/>
   <project path="build/make" name="android/platform/build" groups="pdk" remote="rk" revision="rk33/mid/8.1/develop">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
