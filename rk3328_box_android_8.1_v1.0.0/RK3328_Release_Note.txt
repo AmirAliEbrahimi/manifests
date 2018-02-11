@@ -1,4 +1,33 @@
 ﻿======RK3328 Android8.1 SDK Release Note======
 
-【rk3328_box_oreo_release_v1.0.0-beta_20180123.xml 更新日志】
+【rk3328_box_oreo_release_v0.2.0-beta_20180211.xml 更新日志】
+
+Android:
+ 1.更新至AOSP android-8.1.0_r9
+ 2.修复recovery分区过小导致升级失败问题
+
+Kernel&uboot：
+ 1.支持Rock64开源板子
+ 2.修复clk导致的显示异常问题
+
+显示
+ 1.支持HDMI CEC
+ 2.修复HDMI拔插稳定性
+ 3.修复10bit开机logo显示异常问题
+ 4.修复HDMI开机概率性无声
+ 5.支持CVBS logo
+
+media
+ 1.修复视频拷机稳定性问题
+ 2.修复3D视频播放异常问题
+
+工具&文档
+ 1.更新AndroidTools至2.51版本，修复擦除异常问题
+ 2.文档目录结构整理更新
+ 3.新增《Rockchip Android 8.1 BOX显示框架配置说明文档 V1.0-20180210》文档
+ 4.新增RKDocs\common\driver目录下多份Kernel开发文档
+
+
+
+【rk3328_box_oreo_release_v0.1.0-beta_20180123.xml 更新日志】
 BETA版本初始发布
