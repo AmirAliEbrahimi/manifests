@@ -1,5 +1,13 @@
 ﻿======RK3328 Android8.1 SDK Release Note======
 
+
+【rk3328_box_oreo_release_v0.2.1-beta_20180228.xml 更新日志】
+
+kernel:
+修复sdmmc_ext错误导致WIFI无法使用
+
+
+
 【rk3328_box_oreo_release_v0.2.0-beta_20180211.xml 更新日志】
 
 Android:
