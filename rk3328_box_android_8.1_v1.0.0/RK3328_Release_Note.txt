@@ -1,5 +1,29 @@
 ﻿======RK3328 Android8.1 SDK Release Note======
 
+【rk3328_box_oreo_release_v1.0.0_20180319.xml 更新日志】
+
+Android:
+ 1.更新至AOSP android-8.1.0_r14
+ 2.开机启动时间优化
+ 3.修复媒体中心应用对媒体文件扫描慢问题
+
+显示:
+ 1.修复4096x2160分辨率uboot logo显示异常问题
+ 2.修复关机时CVBS输出显示异常问题
+ 3.修复antutu-videobench应用打开时闪绿屏问题
+ 4.修复HDMI拔插概率出现无信号问题
+ 5.增强HDMI CEC功能稳定性
+
+media:
+ 1.修复多个视频兼容性问题
+ 2.修复OMX视频框架视频兼容性问题
+ 3.修复SPDIF播放DTS视频快进杂音问题
+
+工具&文档
+ 1.新增《Rockchip Keybox Burning Guide V1.2-20180315.pdf》文档
+ 2.新增《Attestation_Keybox Guide for RK3328_V1.0_20180315.pdf》文档
+
+
 
 【rk3328_box_oreo_release_v0.2.1-beta_20180228.xml 更新日志】
 
