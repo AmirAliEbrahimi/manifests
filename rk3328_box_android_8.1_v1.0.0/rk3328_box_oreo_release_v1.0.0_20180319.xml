@@ -5,7 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-8.1.0_r14" sync-j="4"/>
   
-  <project name="android/RKDocs" path="RKDocs/rk3328" remote="rk" revision="13fa3e5770fe3c974ddb085e572eac49da1a1aba" upstream="rk3328/box/android-8.1"/>
+  <project name="android/RKDocs" path="RKDocs/rk3328" remote="rk" revision="ff9bd1bbdbfbd0ff2cd4552267bfd1a25ad359de" upstream="rk3328/box/android-8.1"/>
   <project name="android/RKTools" path="RKTools" remote="rk" revision="b0a76613c49d406abf97612101d8ddc6b27d74f6" upstream="rk3328/atv/develop8.0"/>
   <project groups="device,fugu,broadcom_pdk,pdk" name="android/device/asus/fugu" path="device/asus/fugu" revision="cbfee400e911c01ae21148a8f2adf1d388079a82" upstream="refs/tags/android-8.1.0_r14"/>
   <project clone-depth="1" groups="device,fugu,broadcom_pdk,pdk" name="android/device/asus/fugu-kernel" path="device/asus/fugu-kernel" revision="e739991ba8a4000523a89ef4480a295c09f74ba2" upstream="refs/tags/android-8.1.0_r14"/>
