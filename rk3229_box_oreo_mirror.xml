@@ -7,8 +7,8 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3328/atv/develop8.0"/>
-  <project path="RKDocs/rk3328" name="android/RKDocs" remote="rk" revision="rk3328/box/android-8.1"/>
+  <project path="RKTools" name="android/RKTools" remote="rk" revision="rk3229/atv/develop8.0"/>
+  <project path="RKDocs/rk322x" name="android/RKDocs" remote="rk" revision="rk3229/box/android-8.1"/>
   <project path="RKDocs/android" name="android/docs/android" remote="rk" revision="rk33/mid/android-8.1"/>
   <project path="RKDocs/common" name="android/docs/common" remote="rk" revision="rk33/mid/android-8.1"/>
   <project path="build/make" name="android/platform/build" groups="pdk" remote="rk" revision="rk33/mid/8.1/develop">
@@ -612,9 +612,10 @@
       <copyfile src="mkimage.sh" dest="mkimage.sh"/>
       <copyfile src="javaenv.sh" dest="javaenv.sh"/>
   </project>
-  <project path="device/rockchip/rk3328" name="android/rk/device/rockchip/rk3328" remote="rk" revision="rk33/mid/8.0/develop">
-      <copyfile src="buildspec_box.mk" dest="buildspec.mk"/>
-      <copyfile src="build_box.sh" dest="build.sh"/>
+  <project path="device/rockchip/rk322x" name="android/rk/device/rockchip/rk322x" remote="rk" revision="rk32/mid/8.1/develop">
+      <copyfile src="buildspec-box-rk322x.mk" dest="buildspec.mk"/>
+      <copyfile src="build.sh" dest="build.sh"/>
+      <copyfile src="build_atv.sh" dest="build_atv.sh"/>
   </project>
   <project path="tools/swt" name="android/platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="android/platform/tools/test/connectivity" groups="pdk" />
@@ -628,13 +629,14 @@
   <project path="hardware/rockchip/librkvpu" name="android/rk/hardware/rk29/librkvpu" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="hardware/rockchip/omx_il" name="android/rk/hardware/rk29/omx_il" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="hardware/rockchip/hdmicec" name="android/rk/hardware/rk29/hdmicec" remote="rk" revision="rk33/atv/8.0/develop"/>
+  <project path="external/abc" name="android/rk/platform/external/abc" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="hardware/rockchip/hwcomposer" name="android/rk/hardware/rk29/hwcomposer_rga" remote="rk" revision="rk33/mid/6.0/develop_drm" />
   <project path="hardware/rockchip/libgralloc" name="android/rk/hardware/rk29/libgralloc_ump" remote="rk" revision="soc_with_utgard_gpu/7.1/develop_drm" />
   <project path="hardware/rockchip/camera" name="android/rk/hardware/rk29/camera" remote="rk" revision="rk33/mid/8.1/develop"/>
   <project path="hardware/rockchip/audio" name="android/rk/hardware/rk29/audio" remote="rk" revision="rk33/mid/7.0/develop" />
   <project path="hardware/rockchip/liblights" name="android/rk/hardware/rk29/liblights" remote="rk" revision="rk33/mid/7.0/develop"/>
   <project path="hardware/rockchip/sensor" name="android/rk/hardware/rk29/sensor" remote="rk" revision="rk33/mid/8.0/develop"/>
-  <project path="kernel" name="rk/kernel" remote="rk" revision="stable-4.4-rk3328-box-8.1"/>
+  <project path="kernel" name="rk/kernel" remote="rk" revision="develop-4.4"/>
   <project path="u-boot" name="android/rk/u-boot" remote="rk" revision="rkdevelop"/>
   <project path="rkst" name="android/rk/rkst" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project path="vendor/rockchip/common" name="android/rk/platform/vendor/rockchip/common" remote="rk" revision="rk33/mid/8.1/develop"/>
