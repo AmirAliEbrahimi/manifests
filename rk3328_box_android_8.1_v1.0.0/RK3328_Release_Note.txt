@@ -1,5 +1,27 @@
 ﻿======RK3328 Android8.1 SDK Release Note======
 
+
+【rk3328_box_oreo_release_v1.1.0_20180410.xml 更新日志】
+
+Android:
+ 1.修复开机动画卡顿问题
+ 2.支持USB Camera热拔插
+ 2.修复WiFi配置成静态IP后无法上网问题
+
+显示:
+ 1.修复切换个别Color时出现闪绿条纹问题
+ 2.修复开机时拔插HDMI显示异常问题
+
+media:
+ 1.修复个别视频播放黑屏问题
+ 2.修复云视听应用小窗口视频切换卡住问题
+
+工具&文档
+ 1.更新《Rockchip RK3328软件开发指南 V1.2-20180410》文档
+ 2.更新《瑞芯微Keybox烧录指南_V1.2_20180319》文档
+
+
+
 【rk3328_box_oreo_release_v1.0.0_20180319.xml 更新日志】
 
 Android:
