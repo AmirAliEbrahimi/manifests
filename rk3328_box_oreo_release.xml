@@ -629,7 +629,7 @@
   <project name="android/rk/rkst" path="rkst" remote="rk" revision="c264f23734649fdb83d983bea7bcf11612651926" upstream="rk32/mid/6.0/develop"/>
   <project name="android/rk/u-boot" path="u-boot" remote="rk" revision="038884193dd4a260b69082596b9a81f0bb41302d" upstream="rkdevelop"/>
   <project groups="pdk" name="android/toolchain/binutils" path="toolchain/binutils" revision="a4125cf8aeab9dfeac00f1bda80645987897152f" upstream="refs/tags/android-8.1.0_r14"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="34062437bcac99b66d676029d6325038f17e1e13" upstream="stable-4.4-rk3328-box-8.1"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="584e38f7e8ecb4051f17fb2802835b1931564f80" upstream="stable-4.4-rk3328-box-8.1"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="android/platform/tools/repohooks"/>
 </manifest>
