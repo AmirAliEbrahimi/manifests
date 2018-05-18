@@ -1,0 +1,7 @@
+﻿======RK3128h Android8.1 SDK Release Note======
+
+【rk3128h_box_oreo_release_v1.0.0_20180520.xml 更新日志】
+
+Release版本初始发布
+
+
