@@ -1,5 +1,23 @@
 ﻿======RK3328 Android8.1 SDK Release Note======
 
+【rk3328_box_oreo_release_v1.2.0_20180706.xml 更新日志】
+系统:
+ 1.更新至AOSP android-8.1.0_r33
+
+media:
+ 1.新增SVP支持
+ 2.优化VP9解码效率
+ 3.修复透传在user模式下功能失效问题
+ 4.解决Netflix播放异常问题
+ 5.解决youtube付费片源播放异常问题
+
+工具&文档
+ 1.更新WNpctool写号工具简要使用说明_V1.1.2文档
+ 2.更新Rockchip_TEE安全SDK开发手册_V1.2_20180409文档
+ 3.更新Rockchip_WiFi_Situation_20180403文档
+ 4.更新Rockchip 基于DRM框架的HDMI开发指南 v1.1-20180322文档
+ 5.更新keywriteTool_v1.53 surport widevine,attention and playready
+ 6.添加HDCP key烧写工具
 
 【rk3328_box_oreo_release_v1.1.0_20180410.xml 更新日志】
 
