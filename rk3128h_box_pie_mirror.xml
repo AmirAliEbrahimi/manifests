@@ -3,10 +3,11 @@
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   
-  <default remote="aosp" revision="pie-release" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r10" sync-j="4"/>
   
   <project name="RKDocs" path="RKDocs/rk3128h" remote="rk" revision="rk3128h/box/android-9.0"/>
   <project name="RKTools" remote="rk" revision="rk3128h/atv/develop9.0"/>
+  <project path="external/pcba_rockchip" name="rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/9.0/develop-drm" />
   <project groups="pdk-cw-fs,pdk" name="device/common"/>
   <project groups="pdk" name="device/generic/arm64"/>
   <project groups="pdk" name="device/generic/armv7-a-neon"/>
@@ -28,7 +29,6 @@
   <project groups="pdk" name="device/generic/x86_64"/>
   <project groups="device,pdk" name="device/google/accessory/arduino"/>
   <project groups="device,pdk" name="device/google/accessory/demokit"/>
-  <project groups="device,broadcom_pdk,generic_fs,pdk" name="device/google/atv"/>
   <project groups="device,marlin,pdk" name="device/google/contexthub"/>
   <project groups="device" name="device/google/cuttlefish"/>
   <project groups="device" name="device/google/cuttlefish_common"/>
@@ -40,6 +40,7 @@
   <project clone-depth="1" groups="pdk" name="device/google/vrservices"/>
   <project groups="device,wahoo,pdk" name="device/google/wahoo"/>
   <project clone-depth="1" groups="device,wahoo,pdk" name="device/google/wahoo-kernel"/>
+  <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk"  remote="rk" revision="rk33/mid/9.0/develop"/>
   <project name="device/linaro/bootloader/OpenPlatformPkg"/>
   <project name="device/linaro/bootloader/arm-trusted-firmware"/>
   <project name="device/linaro/bootloader/edk2"/>
@@ -139,7 +140,7 @@
   <project groups="pdk" name="platform/external/esd" path="external/esd"/>
   <project groups="pdk" name="platform/external/expat" path="external/expat"/>
   <project groups="pdk" name="platform/external/eyes-free" path="external/eyes-free"/>
-  <project groups="pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools"/>
+  <project groups="pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/external/fdlibm" path="external/fdlibm"/>
   <project groups="pdk" name="platform/external/fec" path="external/fec"/>
   <project groups="pdk" name="platform/external/fio" path="external/fio"/>
@@ -428,7 +429,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
-  <project groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet"/>
+  <project groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
@@ -524,15 +525,15 @@
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo"/>
   <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
   <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain"/>
   <project groups="pdk-fs" name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
@@ -543,9 +544,9 @@
   <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
   <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
   <project groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence"/>
-  <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
+  <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts"/>
   <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
   <project groups="pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager"/>
@@ -560,7 +561,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
   <project groups="pdk-fs" name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
   <project name="platform/packages/experimental" path="packages/experimental"/>
-  <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
+  <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="rk" revision="rk33/box/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
   <project groups="pdk-fs" name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider"/>
   <project groups="pdk-fs" name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider"/>
@@ -569,10 +570,10 @@
   <project groups="pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
-  <project groups="pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider"/>
+  <project groups="pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
   <project groups="pdk-fs" name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
   <project groups="pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable"/>
