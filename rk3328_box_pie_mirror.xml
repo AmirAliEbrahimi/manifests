@@ -3,9 +3,9 @@
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r10" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r16" sync-j="4"/>
   
-  <project name="RKDocs" path="RKDocs/rk3328" remote="rk" revision="rk3328/box/android-8.1"/>
+  <project name="RKDocs" path="RKDocs/rk3328" remote="rk" revision="rk3328/box/android-9.0"/>
   <project name="RKTools" remote="rk" revision="rk3328/atv/develop9.0"/>
   <project path="external/pcba_rockchip" name="rk/platform/external/rk-pcba-test" groups="pdk" remote="rk" revision="rk33/mid/9.0/develop-drm" />
   <project groups="pdk-cw-fs,pdk" name="device/common"/>
@@ -413,7 +413,7 @@
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker"/>
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin"/>
@@ -443,7 +443,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm"/>
   <project groups="pdk" name="platform/hardware/akm" path="hardware/akm"/>
-  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt"/>
+  <project groups="pdk" name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk,broadcom_wlan" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/hardware/google/apf" path="hardware/google/apf"/>
   <project groups="pdk" name="platform/hardware/google/av" path="hardware/google/av"/>
@@ -495,10 +495,10 @@
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
+  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME"/>
@@ -576,7 +576,7 @@
   <project groups="pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
   <project groups="pdk-fs" name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic"/>
-  <project groups="pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable"/>
+  <project groups="pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car"/>
@@ -632,7 +632,7 @@
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk"/>
-  <project groups="pdk" name="platform/system/bt" path="system/bt"/>
+  <project groups="pdk" name="platform/system/bt" path="system/bt" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates"/>
   <project groups="pdk" name="platform/system/chre" path="system/chre"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond"/>
