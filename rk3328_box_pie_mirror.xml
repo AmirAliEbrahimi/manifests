@@ -3,7 +3,7 @@
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r16" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r18" sync-j="4"/>
   
   <project name="RKDocs" path="RKDocs/rk3328" remote="rk" revision="rk3328/box/android-9.0"/>
   <project name="RKTools" remote="rk" revision="rk3328/atv/develop9.0"/>
@@ -78,7 +78,7 @@
   <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development"/>
   <project groups="pdk" name="platform/external/ImageMagick" path="external/ImageMagick"/>
   <project groups="pdk" name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL"/>
-  <project groups="pdk" name="platform/external/aac" path="external/aac"/>
+  <project groups="pdk" name="platform/external/aac" path="external/aac" revision="gms-express-sec-pie-1205"/>
   <project groups="pdk" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker"/>
   <project groups="pdk" name="platform/external/abi-dumper" path="external/abi-dumper"/>
   <project groups="pdk" name="platform/external/adhd" path="external/adhd"/>
@@ -219,7 +219,7 @@
   <project groups="pdk" name="platform/external/libexif" path="external/libexif"/>
   <project groups="pdk" name="platform/external/libffi" path="external/libffi"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
-  <project groups="pdk" name="platform/external/libhevc" path="external/libhevc"/>
+  <project groups="pdk" name="platform/external/libhevc" path="external/libhevc" revision="gms-express-sec-pie-1205" />
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
   <project groups="pdk" name="platform/external/libldac" path="external/libldac"/>
   <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd"/>
@@ -240,7 +240,7 @@
   <project groups="pdk" name="platform/external/libusb" path="external/libusb"/>
   <project groups="pdk" name="platform/external/libusb-compat" path="external/libusb-compat"/>
   <project groups="pdk" name="platform/external/libvncserver" path="external/libvncserver"/>
-  <project groups="pdk" name="platform/external/libvpx" path="external/libvpx"/>
+  <project groups="pdk" name="platform/external/libvpx" path="external/libvpx" revision="gms-express-sec-pie-1205" />
   <project groups="pdk" name="platform/external/libvterm" path="external/libvterm"/>
   <project groups="pdk" name="platform/external/libxaac" path="external/libxaac"/>
   <project groups="pdk" name="platform/external/libxcam" path="external/libxcam"/>
@@ -384,7 +384,7 @@
   <project groups="pdk" name="platform/external/turbine" path="external/turbine"/>
   <project groups="pdk" name="platform/external/unicode" path="external/unicode"/>
   <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
-  <project groups="pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2"/>
+  <project groups="pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="gms-express-sec-pie-1205"/>
   <project groups="pdk" name="platform/external/v8" path="external/v8"/>
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind"/>
   <project groups="vboot,pdk-fs" name="platform/external/vboot_reference" path="external/vboot_reference"/>
@@ -430,7 +430,7 @@
   <project groups="pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="rk33/mid/9.0/develop"/>
-  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
+  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="gms-express-sec-pie-1205"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="rk33/mid/9.0/develop"/>
@@ -650,16 +650,16 @@
   <project groups="pdk" name="platform/system/libufdt" path="system/libufdt"/>
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf"/>
   <project groups="pdk" name="platform/system/media" path="system/media"/>
-  <project groups="pdk" name="platform/system/netd" path="system/netd"/>
-  <project groups="pdk" name="platform/system/nfc" path="system/nfc"/>
+  <project groups="pdk" name="platform/system/netd" path="system/netd" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="gms-express-sec-pie-1205"/>
   <project groups="pdk" name="platform/system/nvram" path="system/nvram"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
-  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy"/>
+  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="gms-express-sec-pie-1205"/>
   <project groups="pdk" name="platform/system/timezone" path="system/timezone"/>
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl"/>
   <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl"/>
   <project name="platform/system/tpm" path="system/tpm"/>
-  <project groups="pdk" name="platform/system/update_engine" path="system/update_engine"/>
+  <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="gms-express-sec-pie-1205"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="vts,pdk" name="platform/test/framework" path="test/framework"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness"/>
