@@ -717,7 +717,7 @@
   <project name="rk/hardware/rk29/omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="55c6b28b0a65c84fb035e43a8b7955cbd88af4fc" upstream="rk33/mid/7.0/develop"/>
   <project name="rk/hardware/rk29/power" path="hardware/rockchip/power" remote="rk" revision="984cac81f35f580081e242d3aab5e807b5c57cd5" upstream="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/sensor" path="hardware/rockchip/sensor" remote="rk" revision="204c72a857f3e21fd8edc17ef5cf9005311d8745" upstream="rk33/mid/9.0/develop"/>
-  <project name="rk/kernel" path="kernel" remote="rk" revision="c3265a6e31b61900c1a46c8325546eeb91d10dca" upstream="stable-4.4-rk3328-box-9.0"/>
+  <project name="rk/kernel" path="kernel" remote="rk" revision="35a058e6669f9b1f3042b8c2b1ed65f792821c6f" upstream="stable-4.4-rk3328-box-9.0"/>
   <project name="rk/platform/external/abc" path="external/abc" remote="rk" revision="028d5e84675f15b083b8724ed681fb9e31a711b9" upstream="rk33/mid/develop/9.0"/>
   <project name="rk/platform/external/io" path="external/io" remote="rk" revision="ce23c82ae301239f8500e91a0008faa06db15147" upstream="rk32/mid/6.0/develop"/>
   <project name="rk/platform/external/ntfs-3g" path="external/ntfs-3g" remote="rk" revision="26216247ade4637ab2bd812ffa0372b5276efb77" upstream="rk32/mid/6.0/develop"/>
