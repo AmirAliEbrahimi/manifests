@@ -3,7 +3,7 @@
   <remote name="aosp" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   <remote name="rk" fetch="ssh://git@www.rockchip.com.cn/gerrit/"/>
   
-  <default remote="aosp" revision="refs/tags/android-9.0.0_r18" sync-j="4"/>
+  <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
   <project name="RKDocs" path="RKDocs/rk3328" remote="rk" revision="rk3328/box/android-9.0"/>
   <project name="RKTools" remote="rk" revision="rk3328/atv/develop9.0"/>
@@ -47,7 +47,7 @@
   <project groups="device,hikey,pdk" name="device/linaro/hikey"/>
   <project clone-depth="1" groups="device,hikey,pdk" name="device/linaro/hikey-kernel"/>
   <project groups="pdk" name="device/sample"/>
-  <project name="docs/android" path="RKDocs/android" remote="rk" revision="rk33/mid/android-8.1"/>
+  <project name="docs/android" path="RKDocs/android" remote="rk" revision="rk33/mid/android-9.0"/>
   <project name="docs/common" path="RKDocs/common" remote="rk" revision="rk33/mid/android-8.1"/>
   <project groups="vts,pdk" name="kernel/configs"/>
   <project name="kernel/tests"/>
@@ -78,7 +78,7 @@
   <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development"/>
   <project groups="pdk" name="platform/external/ImageMagick" path="external/ImageMagick"/>
   <project groups="pdk" name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL"/>
-  <project groups="pdk" name="platform/external/aac" path="external/aac" revision="gms-express-sec-pie-1205"/>
+  <project groups="pdk" name="platform/external/aac" path="external/aac" />
   <project groups="pdk" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker"/>
   <project groups="pdk" name="platform/external/abi-dumper" path="external/abi-dumper"/>
   <project groups="pdk" name="platform/external/adhd" path="external/adhd"/>
@@ -200,7 +200,7 @@
   <project groups="pdk" name="platform/external/kmod" path="external/kmod"/>
   <project groups="pdk" name="platform/external/kotlinc" path="external/kotlinc"/>
   <project groups="pdk" name="platform/external/ksoap2" path="external/ksoap2"/>
-  <project groups="pdk" name="platform/external/libavc" path="external/libavc"/>
+  <project groups="pdk" name="platform/external/libavc" path="external/libavc" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/external/libbackup" path="external/libbackup"/>
   <project groups="pdk" name="platform/external/libbrillo" path="external/libbrillo"/>
   <project groups="pdk" name="platform/external/libcap" path="external/libcap"/>
@@ -219,7 +219,7 @@
   <project groups="pdk" name="platform/external/libexif" path="external/libexif"/>
   <project groups="pdk" name="platform/external/libffi" path="external/libffi"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"/>
-  <project groups="pdk" name="platform/external/libhevc" path="external/libhevc" revision="gms-express-sec-pie-1205" />
+  <project groups="pdk" name="platform/external/libhevc" path="external/libhevc" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"/>
   <project groups="pdk" name="platform/external/libldac" path="external/libldac"/>
   <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd"/>
@@ -240,7 +240,7 @@
   <project groups="pdk" name="platform/external/libusb" path="external/libusb"/>
   <project groups="pdk" name="platform/external/libusb-compat" path="external/libusb-compat"/>
   <project groups="pdk" name="platform/external/libvncserver" path="external/libvncserver"/>
-  <project groups="pdk" name="platform/external/libvpx" path="external/libvpx" revision="gms-express-sec-pie-1205" />
+  <project groups="pdk" name="platform/external/libvpx" path="external/libvpx"/>
   <project groups="pdk" name="platform/external/libvterm" path="external/libvterm"/>
   <project groups="pdk" name="platform/external/libxaac" path="external/libxaac"/>
   <project groups="pdk" name="platform/external/libxcam" path="external/libxcam"/>
@@ -283,7 +283,7 @@
   <project groups="pdk" name="platform/external/oj-libjdwp" path="external/oj-libjdwp"/>
   <project groups="pdk" name="platform/external/okhttp" path="external/okhttp"/>
   <project groups="pdk" name="platform/external/one-true-awk" path="external/one-true-awk"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" revision="refs/tags/android-9.0.0_r22"/>
   <project groups="pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer"/>
   <project groups="pdk" name="platform/external/parameter-framework" path="external/parameter-framework"/>
   <project groups="pdk" name="platform/external/pcre" path="external/pcre"/>
@@ -292,7 +292,7 @@
   <project groups="pdk" name="platform/external/perfetto" path="external/perfetto"/>
   <project groups="pdk" name="platform/external/piex" path="external/piex"/>
   <project groups="pdk" name="platform/external/ply" path="external/ply"/>
-  <project groups="pdk" name="platform/external/ppp" path="external/ppp"/>
+  <project groups="pdk" name="platform/external/ppp" path="external/ppp" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/external/proguard" path="external/proguard"/>
   <project groups="pdk" name="platform/external/protobuf" path="external/protobuf"/>
   <project groups="pdk" name="platform/external/puffin" path="external/puffin"/>
@@ -360,7 +360,7 @@
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox"/>
   <project groups="pdk" name="platform/external/speex" path="external/speex" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/external/spirv-llvm" path="external/spirv-llvm"/>
-  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite"/>
+  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools"/>
   <project groups="pdk" name="platform/external/strace" path="external/strace"/>
   <project groups="pdk" name="platform/external/stressapptest" path="external/stressapptest"/>
@@ -384,7 +384,7 @@
   <project groups="pdk" name="platform/external/turbine" path="external/turbine"/>
   <project groups="pdk" name="platform/external/unicode" path="external/unicode"/>
   <project name="platform/external/universal-tween-engine" path="external/universal-tween-engine"/>
-  <project groups="pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" revision="gms-express-sec-pie-1205"/>
+  <project groups="pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2"/>
   <project groups="pdk" name="platform/external/v8" path="external/v8"/>
   <project groups="pdk" name="platform/external/valgrind" path="external/valgrind"/>
   <project groups="vboot,pdk-fs" name="platform/external/vboot_reference" path="external/vboot_reference"/>
@@ -430,13 +430,13 @@
   <project groups="pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="rk" revision="rk33/mid/9.0/develop"/>
-  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" revision="gms-express-sec-pie-1205"/>
+  <project groups="frameworks_ims,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims"/>
   <project groups="pdk-fs" name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip"/>
   <project groups="pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard"/>
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony"/>
+  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard"/>
   <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs"/>
@@ -468,7 +468,7 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy"/>
   <project groups="marvell_bt,pdk" name="platform/hardware/marvell/bt" path="hardware/marvell/bt"/>
-  <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc"/>
+  <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element"/>
   <project groups="qcom,qcom_audio,pdk-qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio"/>
   <project groups="pdk-qcom" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl"/>
@@ -491,7 +491,7 @@
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power"/>
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/realtek" path="hardware/realtek" remote="rk" revision="rk33/mid/9.0/develop"/>
-  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril"/>
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/libcore" path="libcore"/>
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver"/>
@@ -537,11 +537,11 @@
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon"/>
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
-  <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
+  <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo"/>
   <project groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement"/>
   <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="rk" revision="rk33/mid/9.0/develop"/>
@@ -583,12 +583,12 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms"/>
   <project groups="pdk-fs" name="platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker"/>
   <project groups="pdk" name="platform/pdk" path="pdk"/>
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk"/>
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="gms-express-sec-pie-2019-03-05"/>
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="gms-express-sec-pie-2019-03-05"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor"/>
@@ -641,25 +641,25 @@
   <project groups="pdk" name="platform/system/extras" path="system/extras"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper"/>
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces"/>
-  <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager"/>
+  <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/system/iot/attestation" path="system/iot/attestation"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster"/>
   <project groups="pdk" name="platform/system/libfmq" path="system/libfmq"/>
-  <project groups="pdk" name="platform/system/libhidl" path="system/libhidl"/>
-  <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder"/>
+  <project groups="pdk" name="platform/system/libhidl" path="system/libhidl" revision="gms-express-sec-pie-2019-03-05"/>
+  <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/system/libufdt" path="system/libufdt"/>
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf"/>
   <project groups="pdk" name="platform/system/media" path="system/media"/>
   <project groups="pdk" name="platform/system/netd" path="system/netd" remote="rk" revision="rk33/mid/9.0/develop"/>
-  <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="gms-express-sec-pie-1205"/>
+  <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="gms-express-sec-pie-2019-03-05"/>
   <project groups="pdk" name="platform/system/nvram" path="system/nvram"/>
   <project groups="pdk" name="platform/system/security" path="system/security"/>
-  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="gms-express-sec-pie-1205"/>
+  <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy"/>
   <project groups="pdk" name="platform/system/timezone" path="system/timezone"/>
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl"/>
-  <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl"/>
+  <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="gms-express-sec-pie-2019-03-05"/>
   <project name="platform/system/tpm" path="system/tpm"/>
-  <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="gms-express-sec-pie-1205"/>
+  <project groups="pdk" name="platform/system/update_engine" path="system/update_engine"/>
   <project groups="pdk" name="platform/system/vold" path="system/vold" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project groups="vts,pdk" name="platform/test/framework" path="test/framework"/>
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness"/>
@@ -701,13 +701,15 @@
   </project>
   <project name="rk/hardware/rk29/audio" path="hardware/rockchip/audio" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/camera_v3" path="hardware/rockchip/camera" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project path="hardware/rockchip/camera_engine_rkisp" name="rk/hardware/rk29/camera_engine_rkisp" remote="rk" revision="rk33/mid/develop/9.0"/>
   <project name="rk/hardware/rk29/drmservice" path="hardware/rockchip/drmservice" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project path="hardware/rockchip/libmemtrack" name="rk/hardware/rk29/libmemtrack" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project name="platform/system/tools/release_tools" path="system/tools/release_tools" remote="rk" revision="develop" >
     <copyfile src="restore_patches.sh" dest="restore_patches.sh"/>
   </project>
+  <project path="external/usb_modeswitch" name="rk/platform/external/usb_modeswitch" remote="rk" revision="rk33/mid/9.0/develop"/>
   <project name="rk/hardware/rk29/hdmicec" path="hardware/rockchip/hdmicec" remote="rk" revision="rk33/atv/8.0/develop"/>
-  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="rk33/mid/9.0/develop"/>
+  <project name="rk/hardware/rk29/hwcomposer_rga" path="hardware/rockchip/hwcomposer" remote="rk" revision="rk33/mid/6.0/develop_drm"/>
   <project name="rk/hardware/rk29/jpeghw" path="hardware/rockchip/jpeghw" remote="rk" revision="rk32/mid/6.0/develop"/>
   <project name="rk/hardware/rk29/libgralloc_ump" path="hardware/rockchip/libgralloc" remote="rk" revision="soc_with_utgard_gpu/9.0/drm_gralloc"/>
   <project name="rk/hardware/rk29/libiep" path="hardware/rockchip/libiep" remote="rk" revision="rk33/mid/9.0/develop"/>
