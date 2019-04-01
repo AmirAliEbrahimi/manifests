@@ -1,5 +1,48 @@
 -----------------RELEASE NOTE-------------------------------------------
 
+【rk3328_box_pie_release_v1.1.0_20190401.xml】
+RKDocs&RKTools:
+   1.RKDeviceTest更新，支持灯配置等；
+   2.更新《RK3328软件开发指南文档》到V1.3版本：
+			a.添加常用配置宏说明
+			b.更新WideWine功能配置说明
+			c.添加 显示参数的调整和保存
+			d.添加系统调试- Lastlog开启
+			e.添加系统调试-串口调试
+			f.添加系统调试-Log自动保存系统abc. 
+	3.添加客户常用定制功能补丁包目录RKDocs/rk3328/PATCHES
+	4.更新各模块文档到最新版本。
+	5.更新烧写工具到v2.65，修复擦除失败等异常；
+  6.更新KeyWrite、SecureBootTool等工具。
+Uboot:
+   1.修复8bit logo显示异常问题；
+System:
+  1.update aosp codes to android-9.0.0_r33;
+  2.secure patch update to SPL 2019-03-05;
+  3.更新 hwc 到version 0.56:
+    a.修复h HDMI color mode切换失效;
+    b.修复一些app退出闪屏问题;
+    c.修复vrefresh 计算异常导致一些分辨率设置异常.
+    d.swith to new code branch
+    e.修复kodi播放hdr无效问题
+  4.更新设置新功能：
+    a.添加应用动态uimode白名单功能；
+    b.添加power按键功能菜单选项；
+    c.添加首页选项；
+    d.修复屏保功能,修复设置屏保设置时间不刷新异常；
+    e.添加开机音量保护开关选项；
+    f.修复usb选项功能异常；
+    g.修复蓝牙接收文件选项无法打开问题等；
+   5.修复有动画包情况下开机视频无法播放异常；
+   6.RKDeviceTest更新，支持灯配置等；
+   7.omx库更新，优化4k在线播放；
+   8.更新视频库到最新，修复内存泄露隐患；
+   9.修复一些场景下screencap异常问题
+   10.修复设置高级功能电源键配置user版本下无效问题：
+   11.修复user版本下网络adb开关和abc后台日志保存开关无效问题；
+   12.修复部分selinux权限问题;
+
+
 
 【rk3328_box_pie_release_v1.0.0_20181206.xml】
 初始发布
