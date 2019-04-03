@@ -1,4 +1,10 @@
 -----------------RELEASE NOTE-------------------------------------------
+【rk3328_box_pie_release_v1.1.0_20190401.xml】
+System:
+  1.修复亚马逊视频播放界面鼠标图标不可见问题(frameworks/base);
+  2.修复某些机器低概率开机systemserver无响应问题(frameworks/base);
+  3.修复一些apk下红外模拟鼠标点击输入框不会自动弹软键盘问题(frameworks/native);
+
 
 【rk3328_box_pie_release_v1.1.0_20190401.xml】
 RKDocs&RKTools:
