@@ -1,5 +1,18 @@
 -----------------RELEASE NOTE-------------------------------------------
-【rk3328_box_pie_release_v1.1.0_20190401.xml】
+【rk3328_box_pie_release_v1.1.2_20190418.xml】
+Uboot & kernel:
+  1.uboot:修复小内存可能导致malloc失败隐患；
+  2.kernel:fixed PCM DSP format；
+  3.kernel:dw-hdmi:修复一些场景如语音助手播放开头声音丢失问题；
+
+System:
+  1.修复开机动画包带audio.wav音频播放失败问题；
+  2.TvSettings更多设置添加性能浮窗功能;
+  3.修复集成gms下概率出现googleplayservice崩溃问题；
+  4.修复playmovie&tv部分焦点无法操作问题；
+  5.修复视频会议zoom应用通话无声音问题；
+
+【rk3328_box_pie_release_v1.1.1_20190403.xml】
 System:
   1.修复亚马逊视频播放界面鼠标图标不可见问题(frameworks/base);
   2.修复某些机器低概率开机systemserver无响应问题(frameworks/base);
