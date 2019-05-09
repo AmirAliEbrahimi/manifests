@@ -1,5 +1,11 @@
 -----------------RELEASE NOTE-------------------------------------------
 【rk3328_box_pie_release_v1.1.2_20190418.xml】
+kernel:
+  1.优化变频框架，提升稳定性。
+
+
+
+【rk3328_box_pie_release_v1.1.2_20190418.xml】
 Uboot & kernel:
   1.uboot:修复小内存可能导致malloc失败隐患；
   2.kernel:fixed PCM DSP format；
