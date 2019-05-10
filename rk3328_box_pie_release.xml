@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="ssh://git@www.rockchip.com.cn/gerrit/" name="aosp"/>
-  <remote fetch="ssh://git@www.rockchip.com.cn/gerrit/" name="rk"/>
+  <remote fetch="../../" name="aosp"/>
+  <remote fetch="../../" name="rk"/>
   
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
