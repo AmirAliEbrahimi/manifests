@@ -1,7 +1,7 @@
 <manifest>
   <remote  fetch="git://mirrors.ustc.edu.cn/aosp/"
 	   fetch1="https://aosp.tuna.tsinghua.edu.cn/" name="aosp"/>
-  <remote fetch="https://github.com/orgs/a9rock64" name="rk"/>
+  <remote fetch="https://github.com/a9rock64" name="rk"/>
   
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
