@@ -27,7 +27,7 @@
   <project groups="pdk" name="device/generic/x86_64" revision="506952733fdebb5a2ef086b519ceebe86a95ae31" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="device,pdk" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="device,pdk" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="device,broadcom_pdk,generic_fs,pdk" name="device_google_atv" remote="rk" revision="90a76467b52ac0f5d82b3bbfc8dc0614772b4c57" upstream="rk33/mid/9.0/develop"/>
+  <project groups="device,broadcom_pdk,generic_fs,pdk" name="device_google_atv" path="device/google/atv" remote="rk" revision="90a76467b52ac0f5d82b3bbfc8dc0614772b4c57" upstream="rk33/mid/9.0/develop"/>
   <project groups="device,marlin,pdk" name="device/google/contexthub" revision="e37bcfce975a2243f7ed4328d703642a48d70819" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="device" name="device/google/cuttlefish" revision="d11a8c02fbde693158e48253527589ca608d1c2d" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="device" name="device/google/cuttlefish_common" revision="1aa8407cee1f325cbae905f827e95caf8e49598c" upstream="refs/tags/android-9.0.0_r33"/>
