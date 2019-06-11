@@ -25,7 +25,7 @@ To build, five or six hours
 
 rkdeveloptool is here: http://opensource.rock-chips.com/wiki_Rkdeveloptool
 
-Get the board into bootrom mode
+Get the board into bootrom mode. Short the two pins next to the LEDS and hit reset.
 
 ```
 cd rockdev/Image-rk3328_box
