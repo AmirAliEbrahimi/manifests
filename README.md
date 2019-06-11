@@ -3,21 +3,28 @@ Android 9 Pie source for Rock64
 There are two manifests, one for US and one for China. 
 The China one uses AOSP mirrors located in China.
 
+```
 $ repo init --depth=1 -u https://github.com/a9rock64/manifests.git -m a9rock64_us.xml -b default
 $ repo init --depth=1 -u https://github.com/a9rock64/manifests.git -m a9rock64_china.xml -b default
+```
 
 Bring the files down using parallel threads
 
+```
 $ repo sync  -f -c --no-clone-bundle --no-tags -j$(nproc --all)
+```
 
 To build
 
+```
 $  . build/envsetup.sh
 $  ./build_box.sh
 $  cd rockdev/Image-rk3328_box
+```
 
 Get the board into bootrom mode
 
+```
 $ rkdeveloptool db MiniLoaderAll.bin
 $ rkdeveloptool ef
 $ rkdeveloptool gpt parameter.txt
@@ -37,4 +44,5 @@ $ rkdeveloptool wlx system system.img
 $ rkdeveloptool wlx vendor vendor.img
 $ rkdeveloptool wlx oem oem.img
 $ rkdeveloptool rd
+```
 
