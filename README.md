@@ -1,5 +1,7 @@
 Android 9 Pie source for Rock64
 
+Get repo here: https://source.android.com/setup/build/downloading#installing-repo
+
 There are two manifests, one for US and one for China. 
 The China one uses AOSP mirrors located in China.
 
