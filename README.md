@@ -8,13 +8,13 @@ $ repo init --depth=1 -u https://github.com/a9rock64/manifests.git -m a9rock64_u
 $ repo init --depth=1 -u https://github.com/a9rock64/manifests.git -m a9rock64_china.xml -b default
 ```
 
-Bring the files down using parallel threads
+Bring the files down using parallel threads, about half an hour
 
 ```
 $ repo sync  -f -c --no-clone-bundle --no-tags -j$(nproc --all)
 ```
 
-To build
+To build, five or six hours
 
 ```
 $  . build/envsetup.sh
