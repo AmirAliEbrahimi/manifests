@@ -198,7 +198,7 @@
   <project groups="pdk" name="platform/external/kmod" path="external/kmod" revision="7cb2f308403b177720e6f022d404ce1fc414e663" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/kotlinc" path="external/kotlinc" revision="ab25ab9cb72857fac6e74dd0dec2a00ea7885a91" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/ksoap2" path="external/ksoap2" revision="9fdc4a6bb2b882bd1d6c822d2ad0c66585d66ba9" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/external/libavc" path="external/libavc" revision="c4c0a7da9b52d7243cf930faae9141d16cb91bed" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/external/libavc" path="external/libavc" revision="e910b1686a40e017cdea91b0fc09d5b479d4ed9c" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libbackup" path="external/libbackup" revision="48482a17ecc34a0a36dce78a73db9dd934d70a7a" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libbrillo" path="external/libbrillo" revision="595c2583216edb04677333dc21b0461ce12cf7ac" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libcap" path="external/libcap" revision="f8fc00c6ce9cbab867ca14d419516ec175aa3bd0" upstream="refs/tags/android-9.0.0_r33"/>
@@ -217,7 +217,7 @@
   <project groups="pdk" name="platform/external/libexif" path="external/libexif" revision="8f688823fc5399ab0f42ba2c8986cdd127dbde9b" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libffi" path="external/libffi" revision="c82cc185378f84d9aa51c7ab8c8dd3f104312b97" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm" revision="e775ffccfbedc4bb525cb2b5c9280a1dd0cfbe21" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/external/libhevc" path="external/libhevc" revision="6f00ba83ea5755ab3073166761e66d821dee9ece" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/external/libhevc" path="external/libhevc" revision="748ce1d7c694562f0f0e9682643c67c0925fbf63" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" revision="f5c8ca7bb600d1e5488f65c6d5447b19b18d899c" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libldac" path="external/libldac" revision="68f49b758618a32ffb39aef34d1f10abd39798c2" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd" revision="20869c2653b242b95be85fe698b56ee139cf73dc" upstream="refs/tags/android-9.0.0_r33"/>
@@ -358,7 +358,7 @@
   <project groups="pdk" name="platform/external/sonivox" path="external/sonivox" revision="85aba76f7520284a02921e77fda2d1884b02409e" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform_external_speex" path="external/speex" remote="rk" revision="91753490a9fd6b1c6a8fae48194b465f1aea2524" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/external/spirv-llvm" path="external/spirv-llvm" revision="63555c7bb790516c89f54d661dc8ea400dd8d2d7" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" revision="fd8fa6c60397b068fd741dc8e3163d79c49f09e0" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" revision="7cb2759e23ee511ba234b705c3672073d1ae983e" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" revision="57d49697471c96b696ec1982fce397537d99ca08" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/strace" path="external/strace" revision="d442ef3c4a2bd22aa2daf50d96007e5245422f49" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/external/stressapptest" path="external/stressapptest" revision="3962813cd90ad452601a21fa1e20d4fef9bd7b0b" upstream="refs/tags/android-9.0.0_r33"/>
@@ -466,7 +466,7 @@
   <project groups="pdk" name="platform_hardware_libhardware" path="hardware/libhardware" remote="rk" revision="291e75d41e74dd1731fb7f786120df1599675505" upstream="rk33/mid/9.0/develop"/>
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="8c64fe9b126d6e50ea12f0dd02b5d4716392e076" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="marvell_bt,pdk" name="platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="fd8d1a41fede855db2cbe217297c31bb17d87f2e" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="1a7ca2f8c750c84c17bf3fd6e97810b7cee176ba" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" revision="b25f0f974988e57cba44855193919d3182b42cab" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="qcom,qcom_audio,pdk-qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="75b5a46d0c5d67fe68a5238ce7a894452a2c7e88" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-qcom" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="956419013f169f756404de89aad50c75d3b02bde" upstream="refs/tags/android-9.0.0_r33"/>
@@ -586,7 +586,7 @@
   <project groups="pdk" name="platform/pdk" path="pdk" revision="78a60a74ac85b7315180bb18c9d0b34f253ba234" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" revision="3fcc4c6f8756843271b3f68df4b52f72532f4e66" upstream="refs/tags/android-9.0.0_r33"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="a3f7e3a67b31b5423e3559615720dbe368ccd9ee" upstream="refs/tags/android-9.0.0_r33"/>
-  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="35a6d9c53c822c0cb332e7df138d27aa62b5bece" upstream="refs/tags/android-9.0.0_r33"/>
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" revision="6211eb5e89d52bfa5fc90b1d13d6e54df7d93dcd" upstream="refs/tags/android-9.0.0_r33"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" revision="bfe49e0b56a97f6ac9a66e500e9528af0fb6b02c" upstream="refs/tags/android-9.0.0_r33"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" revision="e307a55a8188b407890491357cb841ade54bbf47" upstream="refs/tags/android-9.0.0_r33"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" revision="ec3da48f25a3df5ae2ea605dba909a61172d0922" upstream="refs/tags/android-9.0.0_r33"/>
@@ -639,12 +639,12 @@
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="9ec7ba8443caa905c2ebdf6eadd5e6148a348d37" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="acdbc8688e23b39ff311b4b554be3547a47245a3" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="64848957ba49275896c80790ceeeb6219930f687" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" revision="68101e4c6c79d1b0721dd1183e28f64f32c709a2" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" revision="769023ef1cede789970f7fed8f60f187aaf1a1d4" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/iot/attestation" path="system/iot/attestation" revision="a2a88cd320737feb4fc5f1f396dcbce40fde9497" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="c6d9000526f463bc109964b73ed751ae09fc2da7" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/libfmq" path="system/libfmq" revision="93a6e39a2b8997574b11d9532ae3ce425c766fc3" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/system/libhidl" path="system/libhidl" revision="41452e75bad07cb5a442fbaf6b9fe19a3a735819" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="e4a9a6f080970c3586f1b7fbad2129d6ffbb5d41" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/system/libhidl" path="system/libhidl" revision="3f3ff1aca3ec4d17fd0e6a0d3f23108ddcc95134" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="0695b994762cab51cb2b7d3c95b066be215897b9" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/libufdt" path="system/libufdt" revision="d84a3e4947a7c05f60bce50f16d4fb76f976a1cc" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf" revision="e448ccc3c752877411396b445080c85fee8fba62" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="6477442823b40c502d62c4f990e56f19f75103cd" upstream="refs/tags/android-9.0.0_r33"/>
@@ -655,7 +655,7 @@
   <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="6308216c6c5afc1caf2d34e7865ca546bf760450" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/timezone" path="system/timezone" revision="9fff3df46bcab5c3575b40b7c3b2910e8bb21286" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/tools/aidl" path="system/tools/aidl" revision="b06c82923869f50e9641f7dac56df0aebe637845" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="7dc9b02e36ad9a2b0503c309ad19bb4bb435cfba" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="321c5fc0e22706a109aa505735cbb3397ce2c7a6" upstream="refs/tags/android-9.0.0_r33"/>
   <project name="platform_system_tools_release_tools" path="system/tools/release_tools" remote="rk" revision="1e6d1bd26ad3b7eeb0f6718209fcda8f6c4c0559" upstream="develop">
     <copyfile dest="restore_patches.sh" src="restore_patches.sh"/>
   </project>
