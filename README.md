@@ -19,12 +19,12 @@ To build
 ```
 $  . build/envsetup.sh
 $  ./build_box.sh
-$  cd rockdev/Image-rk3328_box
 ```
 
 Get the board into bootrom mode
 
 ```
+$ cd rockdev/Image-rk3328_box
 $ rkdeveloptool db MiniLoaderAll.bin
 $ rkdeveloptool ef
 $ rkdeveloptool gpt parameter.txt
