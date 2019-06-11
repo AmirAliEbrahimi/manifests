@@ -21,6 +21,8 @@ $  . build/envsetup.sh
 $  ./build_box.sh
 ```
 
+rkdeveloptool is here: http://opensource.rock-chips.com/wiki_Rkdeveloptool
+
 Get the board into bootrom mode
 
 ```
