@@ -535,7 +535,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="7123096bf8d2f7e059b6863d7b817c6202d6a8c1" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="81ed378559c43c8da4a4b20a290e4519d29a4598" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="0cd160be02bd381e8d84800128c7092a946be95b" upstream="refs/tags/android-9.0.0_r33"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="769449f92cf1463ba0ac48d64cbf3c1078135ffb" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" revision="ded9a473ea2f7691b7e65296ec7d19c06d6dee99" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="f93b7fc88dc591f1f2eb148f08b602f6bdc84234" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="1e5d8a500dce6530a99cb952681889042dcfb63a" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="41171be03f7a98e631cc6d5ecb97f38a23d31e7e" upstream="refs/tags/android-9.0.0_r33"/>
@@ -649,7 +649,7 @@
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf" revision="e448ccc3c752877411396b445080c85fee8fba62" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/media" path="system/media" revision="6477442823b40c502d62c4f990e56f19f75103cd" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform_system_netd" path="system/netd" remote="rk" revision="8551ecff380a3af6dfcc4ab7d44931005df1d15f" upstream="rk33/mid/9.0/develop"/>
-  <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="b81c03b205995894da12e770a6008ec7aa855db0" upstream="refs/tags/android-9.0.0_r33"/>
+  <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="fee06d31284d9d6e1ecb7f1a672e76757131892c" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/nvram" path="system/nvram" revision="6c246ace0160aedf62a7e699e1ccef51e1d12a01" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/security" path="system/security" revision="72a9c568f11ecc3a2e26d9c548bcaf138b05c9a1" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="6308216c6c5afc1caf2d34e7865ca546bf760450" upstream="refs/tags/android-9.0.0_r33"/>
