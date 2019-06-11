@@ -723,7 +723,7 @@
   <project name="rk_platform_external_ntfs-3g" path="external/ntfs-3g" remote="rk" revision="rock64"/>
   <project groups="pdk" name="rk_platform_external_rk-pcba-test" path="external/pcba_rockchip" remote="rk" revision="rock64"/>
   <project name="rk_platform_external_usb_modeswitch" path="external/usb_modeswitch" remote="rk" revision="rock64"/>
-  <project name="rk_platform_system_rk_tee_user" path="external/rk_tee_user" remote="rk"revision="rock64"/>
+  <project name="rk_platform_system_rk_tee_user" path="external/rk_tee_user" remote="rk" revision="rock64"/>
   <project name="rk_platform_vendor_Widevine" path="vendor/widevine" remote="rk" revision="rock64"/>
   <project name="rk_platform_vendor_rockchip_common" path="vendor/rockchip/common" remote="rk" revision="rock64"/>
   <project name="rk_platform_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="rk" revision="rock64"/>
