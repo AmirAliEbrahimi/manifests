@@ -1,7 +1,8 @@
 <manifest>
   <remote fetch="https://aosp.tuna.tsinghua.edu.cn/" name="aosp"/>
   <remote fetch="https://github.com/a9rock64" name="rk"/>
-  
+  <remote fetch="https://github.com/rockchip-linux/" name="rockchip"/>
+ 
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
   <project name="RKDocs" path="RKDocs/rk3328" remote="rk" revision="rock64"/>
