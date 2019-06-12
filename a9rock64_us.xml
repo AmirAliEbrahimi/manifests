@@ -1,7 +1,6 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="https://github.com/a9rock64" name="rk"/>
-  <remote fetch="https://github.com/rockchip-linux/kernel.git" name="rockchip"/>
   
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
@@ -718,7 +717,7 @@
   <project name="rk_hardware_rk29_omx_il" path="hardware/rockchip/omx_il" remote="rk" revision="rock64"/>
   <project name="rk_hardware_rk29_power" path="hardware/rockchip/power" remote="rk" revision="rock64"/>
   <project name="rk_hardware_rk29_sensor" path="hardware/rockchip/sensor" remote="rk" revision="rock64"/>
-  <project name="kernel" path="kernel" remote="rockchip" revision="develop-4.4"/>
+  <project name="rk_kernel" path="kernel" remote="rk" revision="rock64"/>
   <project name="rk_platform_external_abc" path="external/abc" remote="rk" revision="rock64"/>
   <project name="rk_platform_external_io" path="external/io" remote="rk" revision="rock64"/>
   <project name="rk_platform_external_ntfs-3g" path="external/ntfs-3g" remote="rk" revision="rock64"/>
