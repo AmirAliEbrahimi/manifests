@@ -1,7 +1,9 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp"/>
   <remote fetch="https://github.com/a9rock64" name="rk"/>
-  
+  <remote name="nezor" fetch="https://gitlab.nezorfla.me/opengapps/"  />
+  <remote name="opengapps" fetch="https://github.com/opengapps/"  />  
+
   <default remote="aosp" revision="refs/tags/android-9.0.0_r33" sync-j="4"/>
   
   <project name="RKDocs" path="RKDocs/rk3328" remote="rk" revision="rock64"/>
@@ -51,7 +53,7 @@
   <project name="kernel/tests" revision="644f4d74b9212e14dc39c21763ae76c832e14f66" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform/art" path="art" revision="1f5f55bfaa13923bc5483a6f9d8189ed4edc74a6" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="platform_bionic" path="bionic" remote="rk" revision="rock64"/>
-  <project groups="pdk" name="platform_bootable_recovery" path="bootable/recovery" remote="rk" revision="422a32faa7c3bcf8f0fdf760cea8227c006baa98" upstream="rk33/mid/9.0/develop"/>
+  <project groups="pdk" name="platform_bootable_recovery" path="bootable/recovery" remote="rk" revision="rock64"/>
   <project groups="pdk" name="platform_build" path="build/make" remote="rk" revision="rock64">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -735,6 +737,14 @@
   <project name="toolchain/benchmark" revision="ce43588700ff84f20b6bf6a513d8932f693e33dd" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="toolchain/binutils" revision="15d7fe529a4fc80dcbb21306e55cb55f7ec1cf4a" upstream="refs/tags/android-9.0.0_r33"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="24bd8873cfbddd16a8fb4c485c6ffa3406a33489" upstream="refs/tags/android-9.0.0_r33"/>
+
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="nezor" />
+  <!-- arm64 depends on arm -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="nezor" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="nezor" />
+  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="nezor" />
+  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="nezor" />  
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
